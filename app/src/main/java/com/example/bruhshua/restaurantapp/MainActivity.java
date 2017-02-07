@@ -24,7 +24,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-
+//To show
     private ListView listView;
     private ArrayList<MenuItem> mItems = new ArrayList<MenuItem>();;
     private ArrayList<ImageView> pictures;
