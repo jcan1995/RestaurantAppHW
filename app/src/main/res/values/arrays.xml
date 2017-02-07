@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="random_imgs">
+        <item>@drawable/artisan_grilledchick_sandwich</item>
+        <item>@drawable/big_mac</item>
+        <item>@drawable/chick_mc_nuggets</item>
+        <item>@drawable/double_quarter_cheese</item>
+        <item>@drawable/filet</item>
+        <item>@drawable/grand_mac</item>
+        <item>@drawable/mac_jr</item>
+        <item>@drawable/premium_chic_sand</item>
+        <item>@drawable/quarter_pound_cheese</item>
+
+    </integer-array>
+
+</resources>

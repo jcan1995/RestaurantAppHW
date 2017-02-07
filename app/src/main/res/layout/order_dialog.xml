@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="16dp"
+    >
+    <TextView
+        android:id="@+id/tvFoodName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:hint="Name"
+        />
+
+    <ImageView
+        android:id="@+id/ivFoodPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvFoodName"
+        />
+
+    <TextView
+        android:id="@+id/tvQuantity"
+        android:text="Quantity:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivFoodPhoto"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp" />
+
+    <EditText
+        android:id="@+id/etQuantity"
+        android:hint="Quantity"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvQuantity"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/tvSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Size:"
+        android:layout_alignBottom="@+id/ivFoodPhoto"
+        android:layout_centerHorizontal="true" />
+    <Spinner
+        android:id="@+id/spinSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSize"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/food_sizes"
+        android:paddingBottom="16dp"
+        />
+    <TextView
+        android:id="@+id/tvPriceText"
+        android:text="Price:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivFoodPhoto" />
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvPriceText"
+        />
+    </RelativeLayout>
